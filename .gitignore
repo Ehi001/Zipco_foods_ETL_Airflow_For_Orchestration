@@ -1,2 +1,5 @@
 # Files to ignore 
 .env
+
+# Folder to be ignored
+zipcovenv
