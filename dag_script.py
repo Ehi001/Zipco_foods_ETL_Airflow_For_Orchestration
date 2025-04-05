@@ -10,10 +10,10 @@ default_args = {
     'depends_on_past' : False,
     'start_date' : datetime(2025, 4, 2),
     'email' : 'dhiyzl@gmail.com',
-    'email_on_failure' : True,
-    'email_on_retry' : True,
+    'email_on_failure' : False,
+    'email_on_retry' : False,
     'retries' : 1,
-    'retries_delay' : timedelta(minuites = 1)
+    'retries_delay' : timedelta(minutes = 1)
 }
 
 dag = DAG(

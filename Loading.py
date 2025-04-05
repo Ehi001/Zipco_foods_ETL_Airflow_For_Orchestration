@@ -6,7 +6,7 @@ import os
 
 def run_loading():
     # Loading the dataset
-    data = pd.read_csv('cleaneddata.csv')
+    data = pd.read_csv('clean_data.csv')
     products = pd.read_csv('products.csv.csv')
     customers = pd.read_csv('customers.csv')
     staff = pd.read_csv('staff.csv')

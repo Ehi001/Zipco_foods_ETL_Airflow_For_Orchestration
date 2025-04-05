@@ -3,7 +3,7 @@ import pandas as pd
 def run_transformation():
 
     # Remove Duplicates
-    data = pd.read_csv(r'zipco_transaction.csv')
+    data = pd.read_csv(r'C:\Users\Oaikhena\Downloads\10alytics Data Engineering Course\Zipco_foods_ETL_Airflow_For_Orchestration\zipco_transaction.csv')
     data.drop_duplicates(inplace = True)
 
     # Handle missing numeric values by filling with the mean or median
